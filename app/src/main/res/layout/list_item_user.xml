@@ -19,55 +19,55 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            app:autoSizeTextType="uniform"
-            android:maxLines="1"
             android:ellipsize="end"
-            android:textStyle="bold"
+            android:maxLines="1"
             android:text="Country"
+            android:textColor="@color/fontColor"
             android:textSize="20sp"
-            android:textColor="@color/fontColor" />
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_total_confirmed_count"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="10000"
-            app:autoSizeTextType="uniform"
-            android:maxLines="1"
+            android:layout_weight="1"
             android:ellipsize="end"
             android:gravity="center"
-            android:textSize="20sp"
+            android:maxLines="1"
+            android:text="10000"
             android:textColor="@color/fontColor"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_total_deaths_count"
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:textSize="20sp"
             android:layout_height="wrap_content"
-            android:text="10000"
-            android:gravity="center"
-            app:autoSizeTextType="uniform"
-            android:maxLines="1"
+            android:layout_weight="1"
             android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="10000"
             android:textColor="@color/fontColor"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv_total_recovered_count"
             android:layout_width="0dp"
-            android:layout_weight="1"
-            android:textSize="20sp"
             android:layout_height="wrap_content"
-            app:autoSizeTextType="uniform"
-            android:maxLines="1"
-            android:gravity="center"
+            android:layout_weight="1"
             android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
             android:text="10000"
             android:textColor="@color/fontColor"
-            android:textStyle="bold" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
 
     </LinearLayout>
 
